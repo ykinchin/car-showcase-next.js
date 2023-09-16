@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import { FC } from 'react'
 
-import AppButton from './AppButton'
+import { AppButton } from '.'
 
 const Hero: FC = () => {
   const handleScroll = () => {}
