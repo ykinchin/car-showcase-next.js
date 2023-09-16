@@ -6,9 +6,7 @@ module.exports = {
   semi: false,
   tabWidth: 2,
   importOrder: [
-    '^react',
-    '<THIRD_PARTY_MODULES>',
-    '^components/(.*)$',
+    '^@(assets|components|context|hooks|lib|pages|routes|services|styles|ui|utils)/?(.*)$',
     '^[./]',
   ],
   importOrderSeparation: true,
