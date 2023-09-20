@@ -5,10 +5,7 @@ module.exports = {
   jsxSingleQuote: true,
   semi: false,
   tabWidth: 2,
-  importOrder: [
-    '^@(assets|components|context|hooks|lib|pages|routes|services|styles|ui|utils)/?(.*)$',
-    '^[./]',
-  ],
+  importOrder: ['^@core/(.*)$', '^@server/(.*)$', '^@ui/(.*)$', '^[./]'],
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
 }
